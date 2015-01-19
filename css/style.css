@@ -1,0 +1,380 @@
+@CHARSET "ISO-8859-1";
+
+body{ 
+	font-family:Arial;
+	background: url("../img/fundo6.jpg");
+	}
+.clear{ overflow:hidden;width:100% }
+.center{
+	text-align:left;
+	margin:0px auto;
+	position:relative;
+	width:960px;
+}
+.fundoTopo{ background-color: transparent; }
+.topo{ 
+	background-image: url("../img/top.jpg");
+	height:350px;
+	width:960px;
+	color:#FFFFFF;
+}
+#logo{
+	width:960px;
+	height:350px;
+	/*border:#00CCCC 1px dotted;*/
+	float:left
+}
+.fundoRodape{ background-color: transparent; }
+.rodape p{ 
+	height:15px;
+	width:100%;
+	text-align:center
+}
+.fundoConteudo{ background-color: transparent;}
+.conteudo{ 
+	background-color: #757598;
+	height:950px;
+	width:960px;
+	color:#FFFFFF;
+	text-align:center
+}
+/*Data do Evento*/
+#img-data{
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+
+#cont-data{
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	width: 430px;
+	height: 210px;
+	border:#F4ECE1 10px solid;
+	background: white;	
+}
+#cont-data p{
+	padding: 5px;
+	color: black;
+	text-align: left;
+	font-size: 22px;
+	}
+
+/****************/
+/*Inscrição*/
+#cont-inscr{
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	width: 440px;
+	height: 322px;
+	border:#F4ECE1 10px solid;
+	background: white;
+}
+#cont-inscr p{
+	padding: 5px;
+	color: black;
+	text-align: left;
+	font-size: 22px;
+	}
+
+#image-inscr{
+	position: absolute;
+	right: 20px;
+	top: 10px;
+}
+
+#image-inscr span.alternativo{
+ display:none;
+}
+#image-inscr:hover span.alternativo{
+  display:block;
+}
+#image-inscr span.normal{
+ display:block;
+}
+#image-inscr:hover span.normal{
+  display:none;
+}
+/************************/
+
+/*Texto ConjubastTUbe*/
+#cont-tube{
+	position: absolute;
+	left: 20px;
+	top: 360px;
+	width: 440px;
+	height: 322px;
+	border:#F4ECE1 10px solid;
+	background: white;
+}
+#cont-tube p{
+	padding: 5px;
+	color: black;
+	text-align: left;
+	font-size: 22px;
+	}
+
+/*JubastTube*/
+#image-videos{
+	position: absolute;
+	right: 20px;
+	top: 360px;
+}
+
+#image-videos span.alternativo{
+ display:none;
+}
+#image-videos:hover span.alternativo{
+  display:block;
+}
+#image-videos span.normal{
+ display:block;
+}
+#image-videos:hover span.normal{
+  display:none;
+}
+/************************/
+
+#texto{text-align:right}
+
+/**********************/
+/*inscricao.html*/
+
+.conteudo-inscr{ 
+	background-color: #757598;
+	height:1500px;
+	width:960px;
+	color:#FFFFFF;
+	text-align:center
+}
+.conteudo-inscr .doc-google{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	height: 1235px;
+	width: 920px;
+}
+/*******************/
+
+/*Jubasttube.html*/
+
+.conteudo-tube{ 
+	background-color: #757598;
+	height:2390px;
+	width:960px;
+	color:#FFFFFF;
+	text-align:center
+}
+.conteudo-tube h1{
+	position: relative;
+	margin: 0px auto;	
+	}
+#vd-1{
+	position: absolute;
+	left: 20px;
+	top: 50px;
+}
+#cont-vd1{	
+	position: absolute;
+	right: 20px;
+	top: 50px;
+	width: 430px;
+	height: 322px;
+	border:#F4ECE1 10px solid;
+	background: white;
+}
+#cont-vd1 h2, h3, p{
+	padding: 5px;
+	color: black;
+	text-align: left;	
+	}
+#vd-2{
+	position: absolute;
+	left: 20px;
+	top: 400px;
+}
+#cont-vd2{	
+	position: absolute;
+	right: 20px;
+	top: 400px;
+	width: 430px;
+	height: 322px;
+	border:#F4ECE1 10px solid;
+	background: white;
+}
+#cont-vd2 h2, h3, p{
+	padding: 5px;
+	color: black;
+	text-align: left;	
+	}
+#vd-3{
+	position: absolute;
+	left: 20px;
+	top: 750px;
+}
+#cont-vd3{	
+	position: absolute;
+	right: 20px;
+	top: 750px;
+	width: 430px;
+	height: 322px;
+	border:#F4ECE1 10px solid;
+	background: white;
+}
+#cont-vd3 h2, h3, p{
+	padding: 5px;
+	color: black;
+	text-align: left;	
+	}
+	
+#vd-4{
+	position: absolute;
+	left: 20px;
+	top: 1100px;
+}
+#cont-vd4{	
+	position: absolute;
+	right: 20px;
+	top: 1100px;
+	width: 430px;
+	height: 322px;
+	border:#F4ECE1 10px solid;
+	background: white;
+}
+#cont-vd4 h2, h3, p{
+	padding: 5px;
+	color: black;
+	text-align: left;	
+	}
+	
+#vd-5{
+	position: absolute;
+	left: 20px;
+	top: 1450px;
+}
+#cont-vd5{	
+	position: absolute;
+	right: 20px;
+	top: 1450px;
+	width: 430px;
+	height: 322px;
+	border:#F4ECE1 10px solid;
+	background: white;
+}
+#cont-vd5 h2, h3, p{
+	padding: 5px;
+	color: black;
+	text-align: left;	
+	}
+#vd-6{
+	position: absolute;
+	left: 20px;
+	top: 1800px;
+}
+#cont-vd6{	
+	position: absolute;
+	right: 20px;
+	top: 1800px;
+	width: 430px;
+	height: 322px;
+	border:#F4ECE1 10px solid;
+	background: white;
+}
+#cont-vd6 h2, h3, p{
+	padding: 5px;
+	color: black;
+	text-align: left;	
+	}
+	
+
+/********MENU*****************/
+#menu ul {
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0 10px 0;
+    background-color:#757598;
+    list-style:none;
+    font-family: Verdana;
+    font: bold;
+}
+#menu ul li { 
+	display: inline; 
+}
+#menu ul li a {
+    padding: 10px 30px;
+    display: inline-block;
+     
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+#menu ul li a:hover {
+    background-color:#EFA02A;
+    color: #fff;
+    border-bottom:3px solid #EA0000;
+}
+
+#menu .faceconj {
+    position: relative;
+    float: right;
+}
+/*******Informações *************************/
+
+.conteudo-info{ 
+	background-color: #757598;
+	height:1450px;
+	width:960px;
+	color:#FFFFFF;
+	text-align:center
+}
+#cont-info{	
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 900px;
+	height: 790px;
+	border:#F4ECE1 10px solid;
+	background: white;
+	color: black;
+}
+#cont-info p{	
+	color: black;
+	font-size: 22px;
+	text-align: left;
+	padding: 10px;	
+}
+
+#cont-bbrasil{	
+	position: absolute;
+	right: 20px;
+	top: 850px;
+	width: 430px;
+	height: 322px;
+	border:#F4ECE1 10px solid;
+	background: white;
+}
+#cont-bbrasil p{
+	color: black;
+	text-align: left;
+	font-size: 22px;
+	text-align: center;	
+}
+
+#cont-bbradesco{	
+	position: absolute;
+	left: 20px;
+	top: 850px;
+	width: 430px;
+	height: 322px;
+	border:#F4ECE1 10px solid;
+	background: white;
+}
+#cont-bbradesco p{	
+	color: black;
+	text-align: left;
+	font-size: 22px;
+	text-align: center;	
+}
